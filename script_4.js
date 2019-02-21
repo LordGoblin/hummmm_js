@@ -63,9 +63,9 @@ function quest6() {
   	a++
   	array.forEach((arrayContent) => {
   		if (arrayContent.length === a && b <= 49) {
-  			console.log(arrayContent)
   			b++
   			console.log(b)
+  			console.log(arrayContent)
   		}
   	});
   }
@@ -84,7 +84,6 @@ function quest7() {
 
 
 function exo05() {
-  console.log(array)
   console.log("Combien y a-t-il de journalistes dans cette array ?")
   console.log(array.length)
   console.log("Combien d'handles contiennent un numéro ?")
@@ -98,7 +97,8 @@ function exo05() {
   console.log("Combien y a-t-il de underscore _ dans tous les pseudos confondus ?")
   console.log(quest5())
   console.log("Trie la liste de handles par ordre alphabétique.")
-  console.log(array.sort())
+  let arrayarray = array.slice()
+  console.log(arrayarray.sort())
   console.log("Quels sont les 50 handles les plus courts de cette array ?")
   quest6()
   console.log("Quelle est la position dans l'array de la personne @epenser ?")
