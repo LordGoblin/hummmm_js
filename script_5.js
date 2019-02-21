@@ -42,7 +42,6 @@ function quest18() {
   let a = 0;
   hachier.forEach((hash) => {
   	if(hash.crypto.toLowerCase().indexOf("coin") >= 0) {
-	  	console.log(hash)
 	  	a++
   	}
   });
