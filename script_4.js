@@ -59,7 +59,7 @@ function quest5() {
 function quest6() {
   let a = 0;
   let b = 0;
-  while(a != 20) {
+  while(a != array.length) {
   	a++
   	array.forEach((arrayContent) => {
   		if (arrayContent.length === a && b <= 49) {
